@@ -21,7 +21,7 @@ export default class Projects extends Component {
                         />
                         <Carousel.Caption>
                             <h1>C++</h1>
-                            <p>ФAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                            <h5>Object-oriented model of work and interaction of the house residents with the elevator</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -32,7 +32,7 @@ export default class Projects extends Component {
                         />
                         <Carousel.Caption>
                             <h1>Python</h1>
-                            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                            <h5>Drawing fractals</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -43,7 +43,7 @@ export default class Projects extends Component {
                         />
                         <Carousel.Caption>
                             <h1>Logisim</h1>
-                            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                            <h5>Processor model</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

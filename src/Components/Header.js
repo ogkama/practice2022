@@ -23,11 +23,11 @@ export default class Header extends Component {
                             <Nav.Link href="/" > Home</Nav.Link>
                                 <NavDropdown title="Projects" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/plusplus">C++ projects</NavDropdown.Item>
-                                    <NavDropdown.Item href="/plusplus">Python projects</NavDropdown.Item>
-                                    <NavDropdown.Item href="/plusplus">Java projects</NavDropdown.Item>
+                                    <NavDropdown.Item href="/python">Python projects</NavDropdown.Item>
+                                    <NavDropdown.Item href="/java">Java projects</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
-                                        <a href="https://github.com/ogkama/">GitHub</a>
+                                    <NavDropdown.Item href="https://github.com/ogkama/">
+                                       GitHub
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
