@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Navbar, Nav, FormControl, Container, Form, Button, Row, NavDropdown} from "react-bootstrap";
-import logo from './Pics/mtuci_3.png';
+import logo from './Pics/audio.png';
 
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                <Navbar collapseOnSelect bg="light" sticky="top">
+            <div className="aboba">
+                <Navbar collapseOnSelect sticky="top" variant="dark" bg = "dark">
                     <Container className = "col-lg-7">
                         <Navbar.Brand href ="/" >
                             <img

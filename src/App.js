@@ -16,6 +16,8 @@ import pic2 from './Components/Pics/exp.png';
 import pic3 from './Components/Pics/elevator.png';
 import pic4 from './Components/Pics/stop.jpg';
 
+import beach from './Components/Pics/beach2.mp4';
+
 function App() {
     const arrayCplus = [
         { pImg: {pic1}, pTitle: "Calculator", pText: "AAAAAAAAAA", pLink: "https://github.com/ogkama/"},
@@ -24,8 +26,12 @@ function App() {
         { pImg: {pic4}, pTitle: "None", pText: "AAAAAAAAAA", pLink: "https://github.com/ogkama/"},
       ];
     return (
-        <div>
+        <div className="main">
+        <div className="overlay"></div>
+        <video src={beach} autoPlay loop muted/>
+        <div className="content">
             <Header/>
+            <div className="cont">
             <Router>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
@@ -61,8 +67,10 @@ function App() {
                     ]}/>
                 </Routes>
             </Router>
+            </div>
             <Footer/>
         </div>
+    </div>
     );
 }
 

@@ -1,104 +1,84 @@
 import React, { Component } from "react";
-import { FormControl, Container, Form, Button, Image, Accordion, Row, Col} from "react-bootstrap";
+import { FormControl, Container, Form, Button, Image, Accordion, Row, Col, Table} from "react-bootstrap";
 import pic1 from './Pics/cplus.png';
 import pic2 from './Pics/python.png';
 import pic3 from './Pics/java.png';
 import pic4 from './Pics/logisim.png';
+import boot from './Pics/boot.png';
 
 export default class Projects extends Component {
     render() {
         return (
+            <div>
             <Container className = "align-self-center pt-4">
                 <Row className = "justify-content-md-center">
                     <Col xs sm={8}>
-                        <h2>Blog</h2>
+                        <h2 className="texth2" >
+                            <div className="piccc">
+                                <img
+                                    src={boot}
+                                    className='img-fluid rounded-circle'
+                                    height="54"
+                                    width="54"
+                                    alt = ""
+                                />
+                            </div>
+                            Blog
+                        </h2>
                     </Col>
                 </Row>
-                <Row xs className = "justify-content-md-center">
-                <Accordion className = "col-lg-8">
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>C++ projects</Accordion.Header>
-                            <Accordion.Body >
-                                    <Row className = "justify-content-md-center">
-                                        <Col>
-                                            <img
-                                                src={pic1}
-                                                height="128"
-                                                width="116"
-                                                className=""
-                                                 alt=""
-                                             />
-                                        </Col>
-                                        <Col  lg="9">
-                                            <h4>С++ projects list</h4>
-                                            <p>Lab1 <br/>Lab2 <br/>Lab3<br/>Lab4</p>
-                                        </Col>
-                                    </Row>
-                            </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>Python projects</Accordion.Header>
-                            <Accordion.Body>
-                            <Row className = "justify-content-md-center">
-                                        <Col>
-                                            <img
-                                                src={pic2}
-                                                height="122"
-                                                width="122"
-                                                className=""
-                                                 alt=""
-                                             />
-                                        </Col>
-                                        <Col  lg="9">
-                                            <h4>Python projects list</h4>
-                                            <p>Lab1 <br/>Lab2 <br/>Lab3<br/>Lab4</p>
-                                        </Col>
-                                    </Row>
-                            </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="2">
-                        <Accordion.Header>Java projects</Accordion.Header>
-                            <Accordion.Body>
-                            <Row className = "justify-content-md-center">
-                                        <Col>
-                                            <img
-                                                src={pic3}
-                                                height="143"
-                                                width="95"
-                                                className=""
-                                                 alt=""
-                                             />
-                                        </Col>
-                                        <Col  lg="9">
-                                            <h4>Java projects list</h4>
-                                            <p>Lab1 <br/>Lab2 <br/>Lab3<br/>Lab4</p>
-                                        </Col>
-                                    </Row>
-                            </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="3">
-                        <Accordion.Header>Logisim</Accordion.Header>
-                            <Accordion.Body>
-                            <Row className = "justify-content-md-center">
-                                        <Col>
-                                            <img
-                                                src={pic4}
-                                                height="122"
-                                                width="122"
-                                                className=""
-                                                 alt=""
-                                             />
-                                        </Col>
-                                        <Col  lg="9">
-                                            <h4>Logisim projects list</h4>
-                                            <p>Lab1 <br/>Lab2 <br/>Lab3<br/>Lab4</p>
-                                        </Col>
-                                    </Row>
-                            </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
-                </Row>
             </Container>
+                
+                <Table className="table table-borderless">
+                    <thead>
+                        <tr className="helloh2">
+                            <th><h4 className="textAdaptive">#</h4></th>
+                            <th><h4 className="textAdaptive">Language</h4></th>
+                            <th><h4 className="textAdaptive">Project name</h4></th>
+                            <th><h4 className="textAdaptive">Date</h4></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">1</h5></td>
+                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive">Lab1</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">2</h5></td>
+                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive">Lab2</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">3</h5></td>
+                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive">Lab1</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">4</h5></td>
+                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive">Lab2</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">5</h5></td>
+                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive">Lab1</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                        <tr className="helloh2">
+                            <td><h5 className="textAdaptive">6</h5></td>
+                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive">Lab2</h5></td>
+                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                        </tr>
+                    </tbody>
+                </Table>
+                </div> 
+            
         )
     }
 }

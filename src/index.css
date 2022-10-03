@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+}
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  
+}
+.proj1{
+  margin-top: 5%;
+}
+.helloh2{
+  color: rgb(115, 141, 159);
+}
+.texth2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgb(115, 141, 159);
+  
+}
+.blog{
+  margin-top: 5%;
+  color: rgb(106, 127, 139);;
+
+}
+.cont{
+  margin-top: 5%;
+}
+
+
+
+.table{
+  /*background-color: rgb(0, 0, 0, .5);*/
+  background: linear-gradient(to right, rgba(33, 37, 41), rgb(135, 20, 52,.8));
+  max-width: 57%;
+  min-width: 30%;
+  margin: auto;
+  /*opacity: linear-gradient(to right, 1, 0);*/
+}
+.piccc{
+  display: inline-block;
+  margin-right: 15px
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-item{
+  border: rgb(35, 65, 100);
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background: rgb(35, 65, 100);
+  color: #e8e8e8;
+}
+
+@media (max-width: 504px){
+  .textAdaptive{
+    font-size: 100%;
+  }
+  .texth2{
+    font-size: 100%;
+  }
+  .helloh2{
+    font-size: 100%;
+  }
+  .btnA{
+    size: sm;
+  }
+}
+

@@ -6,7 +6,7 @@ export default class ProjectCard extends Component {
     render() {
         return (
                 
-                    <Card xs sm={8}style={{ width: '25rem' }}>
+                    <Card xs sm={8} style={{ width: '25rem' }}>
                         <Card.Img variant="top" src={this.props.pImg} width="25" height="240"/>
                         <Card.Body>
                             <Card.Title >{this.props.pTitle}</Card.Title>
