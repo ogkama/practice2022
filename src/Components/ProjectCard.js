@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FormControl, Container, Button, Col, Row, Card, Placeholder} from "react-bootstrap";
+import { Button, Card} from "react-bootstrap";
 import pic4 from './Pics/stop.jpg';
 
 export default class ProjectCard extends Component {

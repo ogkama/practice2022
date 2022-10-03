@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import { FormControl, Container, Form, Button, Image, Accordion, Row, Col, Table} from "react-bootstrap";
-import pic1 from './Pics/cplus.png';
-import pic2 from './Pics/python.png';
-import pic3 from './Pics/java.png';
-import pic4 from './Pics/logisim.png';
+import { Container, Row, Col, Table} from "react-bootstrap";
 import boot from './Pics/boot.png';
 
 export default class Projects extends Component {

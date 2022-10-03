@@ -78,7 +78,7 @@ video {
 .table{
   /*background-color: rgb(0, 0, 0, .5);*/
   background: linear-gradient(to right, rgba(33, 37, 41), rgb(135, 20, 52,.8));
-  max-width: 57%;
+  max-width: 56%;
   min-width: 30%;
   margin: auto;
   /*opacity: linear-gradient(to right, 1, 0);*/

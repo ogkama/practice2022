@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { FormControl, Container, Button, Col, Row} from "react-bootstrap";
-import {createUseStyles} from 'react-jss'
+import { Container, Button, Col, Row} from "react-bootstrap";
 import pic1 from './Pics/kama.jpg';
 import palm from './Pics/palm.png';
 import cap from './Pics/cap.png';
