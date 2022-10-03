@@ -55,16 +55,6 @@ function App() {
                             </div>
                         </Container>
                     ]}/>
-                    <Route path='/java' element={[ 
-                        <Container className = "col-lg-7" >
-                            <div className="d-flex justify-content-around">
-                                <ProjectCard />, 
-                                <ProjectCard />, 
-                                <ProjectCard />, 
-                                <ProjectCard />, 
-                            </div>
-                        </Container>
-                    ]}/>
                 </Routes>
             </Router>
             </div>

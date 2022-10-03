@@ -24,7 +24,6 @@ export default class Header extends Component {
                                 <NavDropdown title="Projects" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/plusplus">C++ projects</NavDropdown.Item>
                                     <NavDropdown.Item href="/python">Python projects</NavDropdown.Item>
-                                    <NavDropdown.Item href="/java">Java projects</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="https://github.com/ogkama/">
                                        GitHub

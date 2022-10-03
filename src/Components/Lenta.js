@@ -41,39 +41,39 @@ export default class Projects extends Component {
                     <tbody>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">1</h5></td>
-                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Python</a></h5></td>
                             <td><h5 className="textAdaptive">Lab1</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">26.03.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">2</h5></td>
-                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Python</a></h5></td>
                             <td><h5 className="textAdaptive">Lab2</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">14.06.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">3</h5></td>
-                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">C++</a></h5></td>
                             <td><h5 className="textAdaptive">Lab1</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">01.11.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">4</h5></td>
-                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">C++</a></h5></td>
                             <td><h5 className="textAdaptive">Lab2</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">30.01.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">5</h5></td>
-                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Java</a></h5></td>
                             <td><h5 className="textAdaptive">Lab1</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">09.05.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">6</h5></td>
-                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Java</a></h5></td>
                             <td><h5 className="textAdaptive">Lab2</h5></td>
-                            <td><h5 className="textAdaptive">01.01.2001</h5></td>
+                            <td><h5 className="textAdaptive">21.04.2022</h5></td>
                         </tr>
                     </tbody>
                 </Table>

@@ -10,9 +10,8 @@ export default class Projects extends Component {
             <Container>
                 <Row className = "justify-content-md-center">
                 <Col lg = "8">
-                <Carousel variant = "dark">
-                    <Carousel.Item className="aboba">
-                    <div className="aboba">
+                <Carousel variant = "dark" className="projtext">
+                    <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={pic1}
@@ -20,7 +19,6 @@ export default class Projects extends Component {
                             //width={300} 
                             //height={400}
                         />
-                        </div>
                         <Carousel.Caption>
                             <h1>C++</h1>
                             <h5>Object-oriented model of work and interaction of the house residents with the elevator</h5>
