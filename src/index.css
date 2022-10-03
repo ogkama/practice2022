@@ -50,10 +50,15 @@ video {
 
 }
 .cont{
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
-
+.plholder{
+  background: linear-gradient(to right, rgb(23, 26, 29), rgb(135, 20, 52,.9));
+}
+.pltext{
+  color: rgb(115, 141, 159);
+}
 
 .table{
   /*background-color: rgb(0, 0, 0, .5);*/
@@ -66,19 +71,6 @@ video {
 .piccc{
   display: inline-block;
   margin-right: 15px
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-}
-.accordion-item{
-  border: rgb(35, 65, 100);
-}
-
-.accordion-button:not(.collapsed) {
-  color: inherit;
-  background: rgb(35, 65, 100);
-  color: #e8e8e8;
 }
 
 @media (max-width: 504px){
