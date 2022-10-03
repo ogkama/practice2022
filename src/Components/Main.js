@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FormControl, Container, Button, Col, Row} from "react-bootstrap";
 import {createUseStyles} from 'react-jss'
-import pic1 from './Pics/anon.jpg';
+import pic1 from './Pics/kama.jpg';
 import palm from './Pics/palm.png';
 import cap from './Pics/cap.png';
 
@@ -31,6 +31,7 @@ export default class Main extends Component {
                         <Button className="btnA" href = "https://github.com/ogkama/" variant="outline-secondary" size="lg">Discord</Button>{' '}
                     </Col>
                     <Col  sm={3}>
+                        
                         <img
                             src={pic1}
                             className='img-fluid rounded-circle'

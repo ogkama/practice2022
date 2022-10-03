@@ -87,5 +87,9 @@ video {
   .btnA{
     size: sm;
   }
+  .helloh2 img{
+    height: 150px;
+    width: 150px;
+  }
 }
 

@@ -23,7 +23,7 @@ export default class Projects extends Component {
                                     alt = ""
                                 />
                             </div>
-                            Blog
+                            Project archive
                         </h2>
                     </Col>
                 </Row>
