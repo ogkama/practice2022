@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <div className="aboba">
-                <Navbar collapseOnSelect sticky="top" variant="dark" bg = "dark">
+                <Navbar collapseOnSelect fixed="top" variant="dark" bg = "dark">
                     <Container className = "col-lg-7">
                         <Navbar.Brand href ="/" >
                             <img
