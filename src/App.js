@@ -10,7 +10,8 @@ import { Container} from "react-bootstrap";
 import pic1 from './Components/Pics/calc.png';
 import pic2 from './Components/Pics/exp.png';
 import pic3 from './Components/Pics/elevator.png';
-
+import pic4 from './Components/Pics/pyth1.png';
+import pic5 from './Components/Pics/pyth2.png';
 import beach from './Components/Pics/beach2.mp4';
 
 function App() {
@@ -37,10 +38,10 @@ function App() {
                     <Route path='/python' element={[ 
                         <Container className = "col-lg-7" >
                             <div className="d-flex justify-content-around">
-                                <ProjectCard />, 
-                                <ProjectCard />, 
-                                <ProjectCard />, 
-                                <ProjectCard />, 
+                                <ProjectCard pImg = {pic4} pTitle = "vstavkaSort" pText = "python, python, python, python"/>, 
+                                <ProjectCard pImg = {pic5} pTitle = "viborSort" pText = "python, python, python, python"/>, 
+                                <ProjectCard pImg = {pic4} pTitle = "bubbleSort" pText = "python, python, python, python"/>, 
+                                <ProjectCard pImg = {pic5} pTitle = "fastSOrt" pText = "python, python, python, python"/>, 
                             </div>
                         </Container>
                     ]}/>
