@@ -7,7 +7,7 @@ export default class ProjectCard extends Component {
         return (
                 
                     <Card xs sm={8} className = "plholder" style={{ width: '25rem' }}>
-                        <Card.Img variant="top" src={this.props.pImg} width="25" height="240"/>
+                        <Card.Img variant="top" src={this.props.pImg} width="25" height="240" className="projc"/>
                         <Card.Body>
                             <Card.Title className="pltext">{this.props.pTitle}</Card.Title>
                             <Card.Text className = "pltext">

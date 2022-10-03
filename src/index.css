@@ -71,6 +71,10 @@ video {
   color: rgb(146, 181, 204);
 }
 
+.projc{
+  filter: blur(1px) brightness(40%);
+}
+
 .table{
   /*background-color: rgb(0, 0, 0, .5);*/
   background: linear-gradient(to right, rgba(33, 37, 41), rgb(135, 20, 52,.8));
