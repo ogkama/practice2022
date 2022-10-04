@@ -93,6 +93,12 @@ video {
   color:rgb(154, 121, 63);
 }
 
+.imgMe{
+  /*height: 150px;
+  width: 150px;*/
+  margin-top: 10%;
+}
+
 @media (max-width: 504px){
   .textAdaptive{
     font-size: 100%;
@@ -104,17 +110,5 @@ video {
     margin-top: 15%;
     font-size: 100%;
   }
-  .btnA{
-    size: 50%;
-  }
-  .imgMe{
-    /*height: 150px;
-    width: 150px;*/
-    display:block;
-        margin-left:auto;
-        margin-right:auto;
-        max-width:100%;
-    margin-top: 10%;
-  }
-}
 
+}

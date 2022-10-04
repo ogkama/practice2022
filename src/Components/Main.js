@@ -10,7 +10,7 @@ export default class Main extends Component {
             <div className="proj1">
             <Container className = "col-lg-11" >
                 <Row className = "justify-content-md-center">
-                    <Col xl="5" lg="5" xs="12" md = "13" sm = "20">
+                    <Col xl="5" lg="5" md = "13" sm = "10" xs="12">
                     
                         <h2 className="helloh2" >
                             <div className="piccc">
