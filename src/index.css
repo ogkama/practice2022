@@ -55,6 +55,7 @@ video {
 
 .plholder{
   background: linear-gradient(to right, rgb(23, 26, 29), rgb(135, 20, 52,.9));
+  margin-bottom: 5%;
 }
 .pltext{
   color: rgb(115, 141, 159);
