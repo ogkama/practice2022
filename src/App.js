@@ -14,13 +14,12 @@ import pic4 from './Components/Pics/pyth1.png';
 import pic5 from './Components/Pics/pyth2.png';
 import pic6 from './Components/Pics/cpls.png';
 import beach from './Components/Pics/beach2.mp4';
-import beach2 from './Components/Pics/beach2.webm';
 
 function App() {
     return (
         <div className="main">
         <div className="overlay"></div>
-        <video src={beach | beach2} video autoPlay loop muted playsinline webkit-playinginline/>
+        <video src={beach} video autoPlay loop muted playsinline webkit-playinginline/>
         <div className="content">
             <Header/>
             <div className="cont">
