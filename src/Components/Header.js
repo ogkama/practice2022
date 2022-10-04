@@ -21,7 +21,7 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                             <Nav.Link href="/" > Home</Nav.Link>
-                                <NavDropdown title="Projects" id="navbarScrollingDropdown">
+                                <NavDropdown title="Projects" id="navbarScrollingDropdown" >
                                     <NavDropdown.Item href="/plusplus">C++ projects</NavDropdown.Item>
                                     <NavDropdown.Item href="/python">Python projects</NavDropdown.Item>
                                     <NavDropdown.Divider />
