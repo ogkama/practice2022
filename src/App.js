@@ -20,7 +20,7 @@ function App() {
         <div className="main">
         <div className="overlay"></div>
         <video pleload = "auto" autoPlay loop muted playsinline>
-            <source src = {beach} type = "video/mp4" codecs="h.264"/>
+            <source src = {beach} type = "video/mp4" codecs="h264"/>
         </video>
         <div className="content">
             <Header/>
