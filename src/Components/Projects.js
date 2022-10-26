@@ -11,7 +11,7 @@ export default class Projects extends Component {
                 <Row className = "justify-content-md-center">
                 <Col lg = "8">
                 <Carousel variant = "dark" className="projtext">
-                    <Carousel.Item>
+                    <Carousel.Item interval={1500}> 
                         <img
                             className="d-block w-100"
                             src={pic1}
@@ -24,7 +24,7 @@ export default class Projects extends Component {
                             <h5>Object-oriented model of work and interaction of the house residents with the elevator</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={1500}>
                         <img
                             className="d-block w-100"
                             src={pic2}
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                             <h5>Drawing fractals</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={1500}>
                         <img
                             className="d-block w-100"
                             src={pic3}

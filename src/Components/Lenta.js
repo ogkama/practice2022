@@ -13,7 +13,7 @@ export default class Projects extends Component {
                             <div className="piccc">
                                 <img
                                     src={boot}
-                                    className='img-fluid rounded-circle'
+                                    //className='img-fluid rounded-circle'
                                     height="54"
                                     width="54"
                                     alt = ""
@@ -37,38 +37,38 @@ export default class Projects extends Component {
                     <tbody>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">1</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Python</a></h5></td>
-                            <td><h5 className="textAdaptive">viborSort</h5></td>
+                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Fractals</a></h5></td>
                             <td><h5 className="textAdaptive">26.03.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">2</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Python</a></h5></td>
-                            <td><h5 className="textAdaptive">bubbleSort</h5></td>
+                            <td><h5 className="textAdaptive">Python</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Coursework</a></h5></td>
                             <td><h5 className="textAdaptive">14.06.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">3</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">C++</a></h5></td>
-                            <td><h5 className="textAdaptive">Calculator</h5></td>
+                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">OO model</a></h5></td>
                             <td><h5 className="textAdaptive">01.11.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">4</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">C++</a></h5></td>
-                            <td><h5 className="textAdaptive">Exponent</h5></td>
+                            <td><h5 className="textAdaptive">C++</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Exponent</a></h5></td>
                             <td><h5 className="textAdaptive">30.01.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">5</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Java</a></h5></td>
-                            <td><h5 className="textAdaptive">Lab1</h5></td>
+                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Lab1</a></h5></td>
                             <td><h5 className="textAdaptive">09.05.2022</h5></td>
                         </tr>
                         <tr className="helloh2">
                             <td><h5 className="textAdaptive">6</h5></td>
-                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Java</a></h5></td>
-                            <td><h5 className="textAdaptive">Lab2</h5></td>
+                            <td><h5 className="textAdaptive">Java</h5></td>
+                            <td><h5 className="textAdaptive"><a href = "https://github.com/ogkama/">Lab2</a></h5></td>
                             <td><h5 className="textAdaptive">21.04.2022</h5></td>
                         </tr>
                     </tbody>

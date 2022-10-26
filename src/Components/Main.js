@@ -24,10 +24,10 @@ export default class Main extends Component {
                             </div>
                             Hi, I’m Kamil!
                         </h2>
-                        <p className="blog">I’m a second-year student at Moscow Technical University of Communications and Informatics. At the moment I'm passing a summer internship, namely creating a one-page with JS-React, CSS, HTML. Along with this during my studies performed work on python, C++, Java and other programming languages and get acquainted with different development environments such as Multisim, Logisim, MathLab, AutoCAD, etc.</p>
-                        <Button className="btnA" href = "https://github.com/ogkama/" variant="outline-secondary" size="md">Telegram</Button>{' '}
+                        <p className="blog">I’m a second-year student at Moscow Technical University of Communications and Informatics. At the moment I'm passing a summer internship, namely creating a one-page with JS-React, CSS, HTML. Along with this during my studies performed work on Python, C++, Java and other programming languages and get acquainted with different development environments such as Multisim, Logisim, MathLab, AutoCAD, etc.</p>
+                        <Button className="btnA" href = "https://t.me/etokomel" variant="outline-secondary" size="md">Telegram</Button>{' '}
                         <Button className="btnA" href = "https://github.com/ogkama/" variant="outline-secondary" size="md">GitHub</Button>{' '}
-                        <Button className="btnA" href = "https://github.com/ogkama/" variant="outline-secondary" size="md">Discord</Button>{' '}
+                        <Button className="btnA" href = "https://discord.gg/b4Zz5WyGnP" variant="outline-secondary" size="md">Discord</Button>{' '}
                     </Col>
                     <Col  sm={3}>
                         <div className="imgMe">
