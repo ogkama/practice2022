@@ -19,7 +19,9 @@ function App() {
     return (
         <div className="main">
         <div className="overlay"></div>
-        <video src={beach} video autoPlay loop muted playsinline webkit-playinginline/>
+        <video pleload = "auto" autoPlay loop muted playsinline webkit-playinginline>
+            <source src = {beach} type = "video/mp4" />
+        </video>
         <div className="content">
             <Header/>
             <div className="cont">
