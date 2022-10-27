@@ -14,13 +14,17 @@ import pic4 from './Components/Pics/pyth1.png';
 import pic5 from './Components/Pics/pyth2.png';
 import pic6 from './Components/Pics/cpls.png';
 import beach from './Components/Pics/beach2.mp4';
+import beach1 from './Components/Pics/beach.webm';
+import beach2 from './Components/Pics/beach.h264';
 
 function App() {
     return (
         <div className="main">
         <div className="overlay"></div>
         <video pleload = "auto" autoPlay loop muted playsinline>
-            <source src = {beach} type = "video/mp4; codecs = h264"/>
+            <source src = {beach} type = "video/mp4"/>
+            <source src = {beach1} type = "video/webm"/>
+            <source src = {beach2} type = "video/h264"/>
         </video>
         <div className="content">
             <Header/>
